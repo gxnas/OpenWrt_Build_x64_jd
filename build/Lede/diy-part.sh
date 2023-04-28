@@ -7,6 +7,9 @@
 # 添加京东脚本
 git clone https://github.com/xdhgsq/xdh_plug.git package/jd_openwrt_script
 
+# 添加分区扩容脚本
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
+
 
 # 后台IP设置
 export Ipv4_ipaddr="192.168.1.11"           # 修改openwrt后台地址(填0为关闭)
